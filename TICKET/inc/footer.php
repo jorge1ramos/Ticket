@@ -30,6 +30,6 @@
         </form>
       </div>
     </div>
-    <h4 class="text-center" style="color: #FFF;">LinuxStore CopyRight © <?php echo date("Y"); ?></h4>
+    <h4 class="text-center" style="color: #FFF;">Del Rio Motors CopyRight © <?php echo date("Y"); ?></h4>
   </div>
 </footer>

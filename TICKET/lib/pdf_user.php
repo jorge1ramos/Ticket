@@ -21,7 +21,7 @@ $pdf->SetFillColor(0,255,255);
 $pdf->SetDrawColor(0,0,0);
 $pdf->SetFont("Arial","b",9);
 $pdf->Image('../img/logo.png',40,10,-300);
-$pdf->Cell (0,5,iconv("UTF-8", "ISO-8859-1",'LinuxStore El Salvador'),0,1,'C');
+$pdf->Cell (0,5,iconv("UTF-8", "ISO-8859-1",'Sistemas Del Rio Motors'),0,1,'C');
 $pdf->Cell (0,5,iconv("UTF-8", "ISO-8859-1",'Reporte de problema mediante Ticket'),0,1,'C');
 
 $pdf->Ln();
@@ -53,6 +53,6 @@ $pdf->Cell (0,15,iconv("UTF-8", "ISO-8859-1",$reg['solucion']),1,1,'L');
 
 $pdf->Ln();
 
-$pdf->cell(0,5,"LinuxStore 2018",0,0,'C');
+$pdf->cell(0,5,"Sistemas 2025",0,0,'C');
 
 $pdf->output();
